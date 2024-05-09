@@ -86,7 +86,7 @@ jobs:
       GOAMD64: ${{ matrix.goamd64 }}
       GOARM: ${{ matrix.goarm }}
       CGO_ENABLED: 0
-      # TAGS: with_quic
+      TAGS: with_quic
     steps:
       - name: Checkout
         uses: actions/checkout@v4
